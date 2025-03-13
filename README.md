@@ -2,6 +2,9 @@
 
 React Native shake event detector
 
+Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob). 
+Special thanks to the authors of the RNBB library. This wouldn't be possible without this plugin. 
+
 ## Installation
 
 ```sh
@@ -42,5 +45,3 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 MIT
 
 ---
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
