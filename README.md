@@ -11,12 +11,25 @@ npm install react-native-shake
 ## Usage
 
 
-```js
-import { multiply } from 'react-native-shake';
-
+```TypeScript
+import { Shake } from 'react-native-shake';
 // ...
+const result = Shake.multiply(3, 7);
+// ...
+const listenerSubscription = React.useRef<null | EventSubscription>(null);
+// ...
+useEffect(() => {
+    // INIT
+    listenerSubscription.current = Shake.onShake(() => {
+        console.log('Shake event detected!');
+    });
 
-const result = multiply(3, 7);
+    // DE-INIT
+    return () => {
+        listenerSubscription.current?.remove();
+        listenerSubscription.current = null;
+    };
+}, []);
 ```
 
 
