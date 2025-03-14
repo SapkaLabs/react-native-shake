@@ -1,6 +1,6 @@
 
 #import "generated/RNShakeSpec/RNShakeSpec.h"
 
-@interface Shake : NSObject <NativeShakeSpec>
+@interface Shake : NativeShakeSpecBase <NativeShakeSpec>
 
 @end
