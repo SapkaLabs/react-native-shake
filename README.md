@@ -1,9 +1,11 @@
 # react-native-shake
 
-React Native shake event detector
+React Native shake event detector. 
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob). 
-Special thanks to the authors of the RNBB library. This wouldn't be possible without this plugin. 
+Special thanks to the authors of the RNBB library. This wouldn't be possible without this plugin.
+
+> **Important**: This package only supports React Native's New Architecture and is based on React Native 0.78.0.
 
 ## Installation
 

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-shake",
+  "name": "@sapkalabs/react-native-shake",
   "version": "0.1.0",
   "description": "React Native shake event detector",
   "source": "./src/index.tsx",
