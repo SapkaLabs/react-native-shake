@@ -45,7 +45,9 @@
     "prepare": "bob build",
     "release": "release-it",
     "sa": "yarn workspace react-native-shake-example run android",
-    "si": "yarn workspace react-native-shake-example run ios"
+    "si": "yarn workspace react-native-shake-example run ios",
+    "pod": "yarn workspace react-native-shake-example run pod-install",
+    "podu": "yarn workspace react-native-shake-example run pod-update"
   },
   "keywords": [
     "react-native",
