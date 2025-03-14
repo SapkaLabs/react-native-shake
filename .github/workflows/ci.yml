@@ -84,6 +84,9 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
+      - name: Grant execute permissions for gradlew
+        run: chmod +x ./gradlew
+
       - name: Finalize Android SDK
         if: env.turbo_cache_hit != 1
         run: |
